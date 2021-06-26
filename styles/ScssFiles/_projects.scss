@@ -1,0 +1,191 @@
+.projects {
+    padding-top: 60px;
+    .header {
+        text-align: center;
+        h2 {
+            font-size: 35px;
+        }
+        p {
+            margin-top: 10px;
+            color: var(--input-color);
+        }
+    }
+
+    .projects-list {
+        margin-top: 80px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card {
+        display: flex;
+
+        margin-bottom: 80px;
+        .left {
+            flex: 1;
+            img {
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+
+        .right {
+            flex: 1;
+            margin-left: 60px;
+            margin-right: 20px;
+            h2 {
+                font-size: 30px;
+                color: var(--accent-color);
+            }
+            .info {
+                margin-top: 20px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+            .tools {
+                margin-top: 20px;
+                font-weight: 600;
+            }
+            .button-group {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 55px;
+                div {
+                    background-color: cyan;
+                    width: 250px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px solid var(--accent-color);
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in;
+                    span {
+                        font-weight: 600;
+                    }
+                    svg {
+                        path {
+                            transition: all 0.3s ease-in;
+                        }
+                        margin-left: 10px;
+                        height: 25px;
+                    }
+                }
+
+                .web {
+                    background-color: var(--accent-color);
+                    color: white;
+
+                    &:hover {
+                        background-color: white;
+                        color: var(--accent-color);
+                    }
+                }
+
+                .git {
+                    background-color: white;
+                    color: var(--accent-color);
+                    svg {
+                        path {
+                            fill: var(--accent-color);
+                        }
+                    }
+
+                    &:hover {
+                        background-color: var(--accent-color);
+                        color: white;
+                        svg {
+                            path {
+                                fill: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .projects {
+        .project-card {
+            .right {
+                .button-group {
+                    margin-top: 30px;
+                    div {
+                        width: 160px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 70%;
+    }
+    .projects {
+        .project-card {
+            flex-direction: column;
+            
+           
+            .right{
+                margin-top: 25px;
+                margin-left: 0;
+
+                .button-group{
+                    div{
+                        width: 170px;
+                    }
+                       
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    
+    .projects {
+
+        .header {
+            text-align: center;
+            h2 {
+                font-size: 25px;
+            }
+            
+        }
+        .project-card {
+           
+           
+            .right{
+                margin-top: 20px;
+                margin-left: 0;
+                h2{
+                    font-size: 25px;
+                }
+                .info{
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+                .tools{
+                    margin-top: 10px;
+                }
+                .button-group{
+                    margin-top: 12px;
+                    div{
+                        width: 110px;
+                        span{
+                            font-size: 13px;
+                        }
+                    }
+                       
+                }
+            }
+        }
+    }
+}

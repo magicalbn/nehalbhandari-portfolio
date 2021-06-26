@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    overflow-x: hidden;
+    position: relative;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        z-index: -1;
+        bottom: 50px;
+        right: 70px;
+        background-image: url(../../static/images/pattern-quotes.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 80%;
+}
+
+
+//::-webkit-scrollbar {
+//    width: 0;  /* Remove scrollbar space */
+//    background: transparent;  /* Optional: just make scrollbar invisible */
+//}
