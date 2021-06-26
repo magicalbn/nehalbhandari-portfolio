@@ -247,6 +247,9 @@ html {
     left: -70px;
     top: 50px;
   }
+  .intro::before {
+    content: none;
+  }
   .intro .text {
     width: 500px;
   }
@@ -351,7 +354,7 @@ html {
 .categories::before {
   content: "";
   position: absolute;
-  width: 300%;
+  width: 1500px;
   height: 300%;
   z-index: -3;
   top: 150px;
@@ -366,6 +369,9 @@ html {
 @media screen and (max-width: 1000px) {
   .categories {
     width: 450px;
+  }
+  .categories::before {
+    width: 1000px;
   }
   .categories div {
     width: 120px;

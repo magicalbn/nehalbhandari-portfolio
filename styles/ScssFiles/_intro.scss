@@ -114,6 +114,9 @@
             left: -70px;
             top: 50px;
         }
+        &::before{
+            content: none;
+        }
 
         .text{
             width: 500px;
