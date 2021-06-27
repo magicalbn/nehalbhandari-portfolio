@@ -18,7 +18,7 @@ const Skillset = () => {
 
                 <div className="header">
                     <h2>Skills</h2>
-                    <p>Languages and Technologies that use for my projects.</p>
+                    <p>Languages and Technologies that I use for my projects.</p>
                 </div>
                 <div className="skill-list">
                     {
@@ -30,7 +30,7 @@ const Skillset = () => {
 
                 <div className="header">
                     <h2>Tools</h2>
-                    <p>Some of other tools that i use.</p>
+                    <p>Some of other tools that I use.</p>
                 </div>
                 <div className="skill-list">
                     {

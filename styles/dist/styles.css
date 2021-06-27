@@ -380,7 +380,7 @@ html {
 
 @media screen and (max-width: 650px) {
   .categories {
-    width: 300px;
+    width: 270px;
   }
   .categories:before {
     width: 800px;
@@ -389,7 +389,7 @@ html {
     width: 80px;
   }
   .categories div p {
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-size: 13px;
   }
 }
@@ -581,7 +581,7 @@ html {
     font-size: 25px;
   }
   .projects .project-card .right .info {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 10px;
   }
   .projects .project-card .right .tools {
@@ -672,6 +672,9 @@ html {
     height: 50px;
     width: 50px;
   }
+  .skillset .skill-card p {
+    font-size: 14px;
+  }
 }
 
 .contact {
@@ -761,6 +764,12 @@ html {
   }
   .contact .details .phone {
     margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact .details p {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

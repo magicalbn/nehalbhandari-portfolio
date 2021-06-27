@@ -10,6 +10,8 @@ import mongodb from '../static/svg/mongodb.svg'
 import firebase from '../static/svg/google-firebase.svg'
 import sass from '../static/svg/sass.svg'
 import bootstrap from '../static/svg/bootstrap-4.svg'
+import cplusplus from '../static/svg/c-plus-plus.svg'
+import java from '../static/svg/java.svg'
 
 const skills = [
     {
@@ -71,6 +73,16 @@ const skills = [
         id:12,
         name:"Bootstrap",
         image:bootstrap
+    },
+    {
+        id:13,
+        name:"Java",
+        image:java
+    },
+    {
+        id:14,
+        name:"C++",
+        image:cplusplus
     },
 ]
 

@@ -78,14 +78,14 @@
 
 @media screen and (max-width:650px){
     .categories{
-        width: 300px;
+        width: 270px;
         &:before{
             width: 800px;
         }
         div{
             width: 80px;
             p{
-                letter-spacing: 1px;
+                letter-spacing: 0px;
                 font-size: 13px;
             }
         }
