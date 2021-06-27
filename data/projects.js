@@ -46,7 +46,7 @@ const Projects = [
         id:"5",
         image:Music,
         name:"Music Guru",
-        info:"One of my first ReactJS projects. This music app brings you the most popular songs by the Artisit you search for which you can listen to on the go. This Project uses Spotify's API.",
+        info:"One of my first ReactJS project. This music app brings you the most popular songs by the Artisit you search for which you can listen to on the go. This Project uses Spotify's API.",
         tools:"ReactJS ⚛️",
         website:"https://music-master-ae275.web.app/",
         git:"https://github.com/magicalbn/music-master-app"
