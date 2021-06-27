@@ -10,7 +10,7 @@ const Projects = [
         id:"1",
         image:Stocks,
         name:"Stocks App",
-        info:"Full Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and add Stocks to watchlist.",
+        info:"MERN Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and add Stocks to watchlist.",
         tools:"MERN Stack ⚛️",
         website:"https://stocks-app-react.herokuapp.com/",
         git:"https://github.com/magicalbn/stocks-app"
