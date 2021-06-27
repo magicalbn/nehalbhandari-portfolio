@@ -10,7 +10,7 @@ const Projects = [
         id:"1",
         image:Stocks,
         name:"Stocks App",
-        info:"Full Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and also add Stocks to watchlist.",
+        info:"Full Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and even add Stocks to watchlist.",
         tools:"MERN Stack ⚛️",
         website:"https://stocks-app-react.herokuapp.com/",
         git:"https://github.com/magicalbn/stocks-app"
@@ -19,7 +19,7 @@ const Projects = [
         id:"2",
         image:Movie,
         name:"Movie App",
-        info:"NextJS and ExpressJS Web Application. This project allows you to view the latest Movies and TV Shows that are currently on, along with its Box Office details. You can aslo search for shows and movies by name or even with cast.",
+        info:"NextJS and ExpressJS Web Application. This project allows you to view the latest Movies and TV Shows that are currently airing, along with its Box Office details. You can search for shows and movies by name or even with cast.",
         tools:"ReactJS, NextJS, ExpressJS, Bootstrap ⚛️",
         website:"https://movie-app-nextjs.herokuapp.com/",
         git:"https://github.com/magicalbn/movie-app"
@@ -28,7 +28,7 @@ const Projects = [
         id:"3",
         image:IP,
         name:"IP Address Tracker",
-        info:"A Simple Web Application that can Track an IP Adress to give its location, ISP and other details. The location is viewed on a world map and can also track domain details. This was a Frontend Mentor Project, a website that I use to practice and build Frontend designs.",
+        info:"A Simple Web Application that can Track an IP Adress to give its location, ISP and other details. The location is viewed on a world map and can track domain details. This was a Frontend Mentor Project, a website that I use to practice and build Frontend designs.",
         tools:"HTML, JavaScript, Axios",
         website:"https://magicalbn.github.io/ip-address-tracker/",
         git:"https://github.com/magicalbn/ip-address-tracker"
@@ -37,7 +37,7 @@ const Projects = [
         id:"4",
         image:Country,
         name:"Country App with Theme switch",
-        info:"This is my first project with the ability to switch themes. You can view all Countries and its details and also Sort them by its Continent or do a simple search by name. This project also uses REST API's.",
+        info:"This is my first project with the ability to switch themes. You can view all Countries and its details and Sort them by its Continent or do a simple search by name. This project uses REST API's.",
         tools:"ReactJS, ExpressJS ⚛️",
         website:"https://country-app-with-theme-switch.herokuapp.com/",
         git:"https://github.com/magicalbn/country-app-with-theme-switcher"
