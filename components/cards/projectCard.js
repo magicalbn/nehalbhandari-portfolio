@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
     return (
         <div className="project-card">
             <div className="left">
-                <img src={image.src} />
+                <img src={image} />
             </div>
             <div className="right">
                 <h2>{name}</h2>

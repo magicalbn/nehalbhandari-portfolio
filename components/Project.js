@@ -15,7 +15,7 @@ const Project = (props) => {
         <Fade >
             <div className="projects">
                 <div className="header">
-                    <h2>Projetcs</h2>
+                    <h2>Projects</h2>
                     <p>Have a look at some of my projects.</p>
                 </div>
                 <div className="projects-list">

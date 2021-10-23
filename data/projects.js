@@ -8,7 +8,7 @@ import Login  from '../static/project/Login.PNG'
 const Projects = [
     {
         id:"1",
-        image:Stocks,
+        image:'/project/Stocks.PNG',
         name:"Stocks App",
         info:"MERN Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and add Stocks to watchlist.",
         tools:"MERN Stack ⚛️",
@@ -17,7 +17,7 @@ const Projects = [
     },
     {
         id:"2",
-        image:Movie,
+        image:'/project/Movie.PNG',
         name:"Movie App",
         info:"NextJS and ExpressJS Web Application. This project allows you to view the latest Movies and TV Shows that are currently airing, along with its Box Office details. You can search for shows and movies by name or even with cast.",
         tools:"ReactJS, NextJS, ExpressJS, Bootstrap ⚛️",
@@ -26,7 +26,7 @@ const Projects = [
     },
     {
         id:"3",
-        image:IP,
+        image:'/project/IPAddress.PNG',
         name:"IP Address Tracker",
         info:"A Simple Web Application that can Track an IP Adress to give its location, ISP and other details. The location is viewed on a world map and can track domain details. This was a Frontend Mentor Project, a website that I use to practice and build Frontend designs.",
         tools:"HTML, JavaScript, Axios",
@@ -35,7 +35,7 @@ const Projects = [
     },
     {
         id:"4",
-        image:Country,
+        image:'/project/Country.PNG',
         name:"Country App with Theme switch",
         info:"This is my first project with the ability to switch themes. You can view all Countries and its details and Sort them by its Continent or do a simple search by name. This project uses REST API's.",
         tools:"ReactJS, ExpressJS ⚛️",
@@ -44,7 +44,7 @@ const Projects = [
     },
     {
         id:"5",
-        image:Music,
+        image:'/project/Music.PNG',
         name:"Music Guru",
         info:"One of my first ReactJS project. This music app brings you the most popular songs by the Artisit you search for which you can listen to on the go. This Project uses Spotify's API.",
         tools:"ReactJS ⚛️",
@@ -53,7 +53,7 @@ const Projects = [
     },
     {
         id:"6",
-        image:Login,
+        image:'/project/Login.PNG',
         name:"0Auth Login (PassportJS)",
         info:"0Auth Login Application using PassportJS, with the ability to create accounts by logging in through Facebook, Google, Twiiter, Github or just with simple email and password. The application includes Authentication and the ability to save user session even after a refresh. I have built this app to be reused as an authentication module for my next projects.",
         tools:"ReactJS, PassportJS, ExpressJS ⚛️",

@@ -7,7 +7,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden  !important;
   position: relative;
 }
 
@@ -42,6 +42,7 @@ html {
   --success-color:rgb(26, 107, 1);
   --stocks-green:#44AE68;
   --accent-color:#7d62d4;
+  --accent-color-secondary:#e24da2;
 }
 
 .navbar {
@@ -55,7 +56,7 @@ html {
 }
 
 .navbar.accent {
-  background-color: var(--element-color);
+  background-color: var(--accent-color);
 }
 
 .navbar.accent .nav-content h2 {
@@ -242,7 +243,25 @@ html {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1000px) {
+.intro .text2 span {
+  min-width: 20px;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  opacity: 0;
+  color: var(--accent-color);
+}
+
+.intro .text2 span.fade {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+  color: var(--accent-color-secondary);
+}
+
+@media screen and (max-width: 1200px) {
   .intro::after {
     left: -70px;
     top: 50px;
@@ -287,6 +306,9 @@ html {
   .intro .text2 {
     font-size: 25px;
     letter-spacing: 0px;
+  }
+  .intro .text2 span {
+    min-width: 5px;
   }
   .intro .text3 {
     font-size: 14px;
