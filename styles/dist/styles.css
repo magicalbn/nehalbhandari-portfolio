@@ -458,7 +458,8 @@ html {
           flex: 1;
 }
 
-.projects .project-card .left img {
+.projects .project-card .left div {
+  display: none;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 100%;
@@ -765,6 +766,38 @@ html {
   font-weight: 600;
 }
 
+.contact .resume a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.contact .resume a .icon {
+  background-image: url(../../static/icons/download-solid.svg);
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact .resume a:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 650px) {
   .contact .header {
     text-align: center;
@@ -787,10 +820,19 @@ html {
   .contact .details .phone {
     margin-left: 0px;
   }
+  .contact .resume a {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .contact .details p {
+    font-size: 14px;
+  }
+  .contact .resume a {
     font-size: 14px;
   }
 }

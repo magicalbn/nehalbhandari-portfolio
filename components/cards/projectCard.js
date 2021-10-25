@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import Image from 'next/image'
 
 
 const ProjectCard = (props) => {
@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
     return (
         <div className="project-card">
             <div className="left">
-                <img src={image} />
+                <Image src={image} height={300} width={520} />
             </div>
             <div className="right">
                 <h2>{name}</h2>

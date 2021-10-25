@@ -4,6 +4,7 @@ import profilepic from '../static/profile.jpg'
 import Image from 'next/image'
 
 
+
 const Intro = () => {
 
     useEffect(() => {
@@ -41,7 +42,7 @@ const Intro = () => {
         <Fade>
             <div className="intro">
 
-                <Image src={profilepic.src} height={200} width={210} />
+                <Image src={profilepic.src} height={200} width={220} />
                 <div className="text">
                     <p className="text1">Hey,</p>
                     <p className="text2">I'm {splitName()}</p>

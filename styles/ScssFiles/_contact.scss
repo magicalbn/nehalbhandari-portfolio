@@ -1,5 +1,4 @@
-.contact{
-    
+.contact {
     min-height: 400px;
     padding-top: 60px;
     .header {
@@ -13,74 +12,97 @@
         }
     }
 
-    .details{
+    .details {
         display: flex;
         justify-content: center;
         margin-top: 60px;
-        .mail{
+        .mail {
             display: flex;
             align-items: center;
-            .icon{
+            .icon {
                 background-image: url(../../static/icons/envelope-solid.svg);
                 width: 20px;
                 height: 20px;
                 margin-right: 10px;
             }
         }
-        .phone{
+        .phone {
             margin-left: 20px;
             display: flex;
             align-items: center;
-            .icon{
+            .icon {
                 background-image: url(../../static/icons/phone-alt-solid.svg);
                 width: 20px;
                 height: 20px;
                 margin-right: 10px;
             }
         }
-        p{
+        p {
             font-size: 20px;
             font-weight: 600;
         }
     }
+    .resume a {
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--text-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        .icon {
+            background-image: url(../../static/icons/download-solid.svg);
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+       
+        &:hover {
+            transform: scale(1.04);
+            transition: 0.3s ease-in-out;
+        }
+    }
 }
 
-
-
-@media screen and (max-width:650px) {
-    
+@media screen and (max-width: 650px) {
     .contact {
-
         .header {
             text-align: center;
             h2 {
                 font-size: 25px;
             }
-            
         }
 
-        .details{
+        .details {
             flex-direction: column;
-            p{
+            p {
                 font-size: 17px;
             }
-            .mail{
+            .mail {
                 margin-bottom: 15px;
             }
-            .phone{
+            .phone {
                 margin-left: 0px;
             }
         }
-       
+        .resume a {
+            justify-content: left;
+            font-size: 17px;
+        }
     }
 }
 
-@media screen and (max-width:650px){
-    .contact{
-        .details{
-            p{
+@media screen and (max-width: 650px) {
+    .contact {
+        .details {
+            p {
                 font-size: 14px;
             }
+        }
+        .resume a {
+            font-size: 14px;
         }
     }
 }

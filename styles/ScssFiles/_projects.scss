@@ -23,8 +23,11 @@
 
         margin-bottom: 80px;
         .left {
+            
             flex: 1;
-            img {
+            
+            div {
+                display: none;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 width: 100%;
                 border-radius: 4px;
