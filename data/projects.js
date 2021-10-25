@@ -37,7 +37,7 @@ const Projects = [
         id:"4",
         image:'/project/Country.PNG',
         name:"Country App with Theme switch",
-        info:"This is my first project with the ability to switch themes. You can view all Countries and its details and Sort them by its Continent or do a simple search by name. This project uses REST API's.",
+        info:"This is my first project with the ability to switch themes, Dark and Light. You can view all Countries and its details and Sort them by its Continent or do a simple search by name. This project uses REST API's.",
         tools:"ReactJS, ExpressJS ⚛️",
         website:"https://country-app-with-theme-switch.herokuapp.com/",
         git:"https://github.com/magicalbn/country-app-with-theme-switcher"
