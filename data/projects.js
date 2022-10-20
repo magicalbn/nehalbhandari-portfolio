@@ -44,6 +44,15 @@ const Projects = [
     },
     {
         id:"5",
+        image:'/project/Login.PNG',
+        name:"0Auth Login (PassportJS)",
+        info:"0Auth Login Application using PassportJS, with the ability to create accounts by logging in through Facebook, Google, Twitter, Github or just with simple email and password. The application includes Authentication and the ability to save user session even after a refresh. I have built this app to be reused as an authentication module for my next projects.",
+        tools:"ReactJS, PassportJS, ExpressJS ⚛️",
+        website:"https://passportjs-0auth.herokuapp.com/",
+        git:"https://github.com/magicalbn/0auth-with-passport.js"
+    },
+    {
+        id:"6",
         image:'/project/Music.PNG',
         name:"Music Guru",
         info:"One of my first ReactJS project. This music app brings you the most popular songs by the Artist you search for which you can listen to on the go. This Project uses Spotify's API.",
@@ -51,15 +60,24 @@ const Projects = [
         website:"https://music-master-ae275.web.app/",
         git:"https://github.com/magicalbn/music-master-app"
     },
+    // {
+    //     id:"7",
+    //     image:'/project/Music.PNG',
+    //     name:"Crypto Market Exchange",
+    //     info:"One of my first ReactJS project. This music app brings you the most popular songs by the Artist you search for which you can listen to on the go. This Project uses Spotify's API.",
+    //     tools:"NextJS ⚛️",
+    //     website:"https://crypto-market-sky.vercel.app/",
+    //     git:"https://github.com/magicalbn/crypto-market-sky"
+    // },
     {
-        id:"6",
-        image:'/project/Login.PNG',
-        name:"0Auth Login (PassportJS)",
-        info:"0Auth Login Application using PassportJS, with the ability to create accounts by logging in through Facebook, Google, Twitter, Github or just with simple email and password. The application includes Authentication and the ability to save user session even after a refresh. I have built this app to be reused as an authentication module for my next projects.",
-        tools:"ReactJS, PassportJS, ExpressJS ⚛️",
-        website:"https://passportjs-0auth.herokuapp.com/",
-        git:"https://github.com/magicalbn/0auth-with-passport.js"
-    }
+        id:"8",
+        image:'/project/Netflix.PNG',
+        name:"Netflix clone",
+        info:"An attempt to recreate Netflix Website with its layouts and animation.",
+        tools:"NextJS ⚛️",
+        website:"https://netflix-clone-psi-rouge.vercel.app/",
+        git:"https://github.com/magicalbn/netflix-clone"
+    },
 ]
 
 export default Projects

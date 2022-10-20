@@ -142,8 +142,17 @@ html {
   margin-top: 180px;
 }
 
+.intro .img-wrapper {
+  display: inline-block;
+  height: 250px;
+  position: relative;
+}
+
 .intro img {
   border-radius: 5px;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .intro .text {
@@ -294,7 +303,8 @@ html {
   }
   .intro img {
     border-radius: 5px;
-    height: 130px;
+    height: 200px;
+    margin-top: 10px;
   }
   .intro .text {
     width: 270px;
@@ -449,7 +459,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .projects .project-card .left {
@@ -458,12 +468,21 @@ html {
           flex: 1;
 }
 
-.projects .project-card .left div {
-  display: none;
+.projects .project-card .left img {
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 100%;
-  border-radius: 4px;
+  height: 100%;
+  border-radius: 5px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects .project-card .left img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .projects .project-card .right {
@@ -579,6 +598,7 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 70px;
   }
   .projects .project-card .right {
     margin-top: 25px;
@@ -595,6 +615,9 @@ html {
   }
   .projects .header h2 {
     font-size: 25px;
+  }
+  .projects .project-card {
+    margin-bottom: 70px;
   }
   .projects .project-card .right {
     margin-top: 20px;
