@@ -11,42 +11,42 @@ const tools = [
     {
         id:1,
         name:"Github",
-        image:github
+        image:'/svg/github.svg'
     },
     {
         id:2,
         name:"Git",
-        image:git
+        image:'/svg/git.svg'
     },
     {
         id:3,
         name:"npm",
-        image:npm
+        image:'/svg/npm.svg'
     },
     {
         id:4,
         name:"Visual Studio Code",
-        image:vs
+        image:'/svg/visual-studio-code.svg'
     },
     {
         id:5,
         name:"Firebase",
-        image:firebase
+        image:'/svg/google-firebase.svg'
     },
     {
         id:6,
         name:"Heroku",
-        image:heroku
+        image:'/svg/heroku.svg'
     },
     {
         id:7,
         name:"Postman",
-        image:postman
+        image:'/svg/postman.svg'
     },
     {
         id:9,
         name:"Photoshop",
-        image:photo
+        image:'/svg/adobe-photoshop.svg'
     },
 ]
 

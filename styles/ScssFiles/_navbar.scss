@@ -6,7 +6,7 @@
     z-index: 5;
     transition: all 0.3s ease-in;
     &.accent{
-        background-color: var(--element-color);
+        background-color: var(--accent-color);
         .nav-content{
             h2{
                 color: white;

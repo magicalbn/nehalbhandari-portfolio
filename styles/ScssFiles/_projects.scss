@@ -20,14 +20,22 @@
 
     .project-card {
         display: flex;
-
-        margin-bottom: 80px;
+        margin-bottom: 100px;
         .left {
+            
             flex: 1;
+            
             img {
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 width: 100%;
-                border-radius: 4px;
+                height: 100%;
+                border-radius: 5px;
+                object-fit: fill;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    transform: scale(1.03);
+                }
+               
             }
         }
 
@@ -128,9 +136,11 @@
     .container{
         width: 70%;
     }
+    
     .projects {
         .project-card {
             flex-direction: column;
+            margin-bottom: 70px;
             
            
             .right{
@@ -160,7 +170,7 @@
             
         }
         .project-card {
-           
+            margin-bottom: 70px;
            
             .right{
                 margin-top: 20px;
@@ -169,8 +179,9 @@
                     font-size: 25px;
                 }
                 .info{
-                    font-size: 14px;
+                    font-size: 13px;
                     margin-top: 10px;
+                    
                 }
                 .tools{
                     margin-top: 10px;

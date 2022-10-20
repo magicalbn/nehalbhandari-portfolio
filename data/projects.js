@@ -8,58 +8,76 @@ import Login  from '../static/project/Login.PNG'
 const Projects = [
     {
         id:"1",
-        image:Stocks,
+        image:'/project/Stocks.PNG',
         name:"Stocks App",
-        info:"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        info:"MERN Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and add Stocks to watchlist.",
         tools:"MERN Stack ⚛️",
         website:"https://stocks-app-react.herokuapp.com/",
         git:"https://github.com/magicalbn/stocks-app"
     },
     {
         id:"2",
-        image:Movie,
+        image:'/project/Movie.PNG',
         name:"Movie App",
-        info:"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        info:"NextJS and ExpressJS Web Application. This project allows you to view the latest Movies and TV Shows that are currently airing, along with its Box Office details. You can search for shows and movies by name or even with cast.",
         tools:"ReactJS, NextJS, ExpressJS, Bootstrap ⚛️",
         website:"https://movie-app-nextjs.herokuapp.com/",
         git:"https://github.com/magicalbn/movie-app"
     },
     {
         id:"3",
-        image:IP,
+        image:'/project/IPAddress.PNG',
         name:"IP Address Tracker",
-        info:"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        info:"A Simple Web Application that can Track an IP Adress to give its location, ISP and other details. The location is viewed on a world map and can track domain details. This was a Frontend Mentor Project, a website that I use to practice and build Frontend designs.",
         tools:"HTML, JavaScript, Axios",
         website:"https://magicalbn.github.io/ip-address-tracker/",
         git:"https://github.com/magicalbn/ip-address-tracker"
     },
     {
         id:"4",
-        image:Country,
+        image:'/project/Country.PNG',
         name:"Country App with Theme switch",
-        info:"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        info:"This is my first project with the ability to switch themes, Dark and Light. You can view all Countries and its details and Sort them by its Continent or do a simple search by name. This project uses REST API's.",
         tools:"ReactJS, ExpressJS ⚛️",
         website:"https://country-app-with-theme-switch.herokuapp.com/",
         git:"https://github.com/magicalbn/country-app-with-theme-switcher"
     },
     {
         id:"5",
-        image:Music,
+        image:'/project/Login.PNG',
+        name:"0Auth Login (PassportJS)",
+        info:"0Auth Login Application using PassportJS, with the ability to create accounts by logging in through Facebook, Google, Twitter, Github or just with simple email and password. The application includes Authentication and the ability to save user session even after a refresh. I have built this app to be reused as an authentication module for my next projects.",
+        tools:"ReactJS, PassportJS, ExpressJS ⚛️",
+        website:"https://passportjs-0auth.herokuapp.com/",
+        git:"https://github.com/magicalbn/0auth-with-passport.js"
+    },
+    {
+        id:"6",
+        image:'/project/Music.PNG',
         name:"Music Guru",
-        info:"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        info:"One of my first ReactJS project. This music app brings you the most popular songs by the Artist you search for which you can listen to on the go. This Project uses Spotify's API.",
         tools:"ReactJS ⚛️",
         website:"https://music-master-ae275.web.app/",
         git:"https://github.com/magicalbn/music-master-app"
     },
+    // {
+    //     id:"7",
+    //     image:'/project/Music.PNG',
+    //     name:"Crypto Market Exchange",
+    //     info:"One of my first ReactJS project. This music app brings you the most popular songs by the Artist you search for which you can listen to on the go. This Project uses Spotify's API.",
+    //     tools:"NextJS ⚛️",
+    //     website:"https://crypto-market-sky.vercel.app/",
+    //     git:"https://github.com/magicalbn/crypto-market-sky"
+    // },
     {
-        id:"6",
-        image:Login,
-        name:"0Auth Login (PassportJS)",
-        info:"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        tools:"ReactJS, PassportJS, ExpressJS ⚛️",
-        website:"https://passportjs-0auth.herokuapp.com/",
-        git:"https://github.com/magicalbn/0auth-with-passport.js"
-    }
+        id:"8",
+        image:'/project/Netflix.PNG',
+        name:"Netflix clone",
+        info:"An attempt to recreate Netflix Website with its layouts and animation.",
+        tools:"NextJS ⚛️",
+        website:"https://netflix-clone-psi-rouge.vercel.app/",
+        git:"https://github.com/magicalbn/netflix-clone"
+    },
 ]
 
 export default Projects

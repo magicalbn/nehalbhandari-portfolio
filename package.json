@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build"
   },
   "author": "nehalb",
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
+    "axios": "^0.24.0",
+    "js-file-download": "^0.4.12",
     "next": "^11.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

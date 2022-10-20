@@ -1,10 +1,13 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
+import Link from 'next/link'
+
+
 
 const Contact = () => {
     useEffect(() => {
-        window.scrollTo({top: 300, left: 0, behavior: 'smooth' })
-      }, [])
+        window.scrollTo({ top: 300, left: 0, behavior: 'smooth' })
+    }, [])
     return (
         <Fade >
             <div className="contact">
@@ -21,6 +24,14 @@ const Contact = () => {
                         <div className="icon"></div>
                         <p>(+91) 9284671169</p>
                     </div>
+                </div>
+                <div className="resume">
+                    <a href='/doc/Nehal Bhandari 2021.pdf' download>
+                        <div className="icon"></div>
+
+                        {console.log(process.env)}
+                        Resume
+                    </a>
                 </div>
             </div>
         </Fade>
