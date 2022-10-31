@@ -58,7 +58,10 @@
         margin-top: 40px;
         font-size: 20px;
         border: 2px solid var(--accent-color);
+        border: none;
         background-color: var(--accent-color);
+        background: linear-gradient(45deg, #7d62d4, #e24da2, #7d62d4, #23a6d5);
+        background-size: 280% 280%;
         border-radius: 5px;
         color: white;
         display: flex;
@@ -78,13 +81,13 @@
 
         cursor: pointer;
         &:hover {
-            background-color: white;
-            color: var(--accent-color);
-            svg {
-                path {
-                    fill: var(--accent-color);
-                }
-            }
+            background-position: 100% 50%;
+            // color: var(--accent-color);
+            // svg {
+            //     path {
+            //         fill: var(--accent-color);
+            //     }
+            // }
         }
     }
 }
@@ -121,21 +124,43 @@
 
 
 .intro .text2 {
+    .profile-name{
+        display: inline-block;
+       
+    }
     span {
         min-width: 20px;
         display: inline-block;
         transition: all 0.2s ease-in;
         transform: translateY(50px);
         opacity: 0;
+        
         color: var(--accent-color);
     }
 
     span.fade {
+        background: linear-gradient(-60deg, #7d62d4, #23a6d5, #e24da2, #7d62d4);
+        background-size: 400% 400%;
+        animation: gradient 4s ease infinite;
+        background-clip: text;
         transform: translateY(0px);
         opacity: 1;
-        color: var(--accent-color-secondary);
+        color: transparent;
     }
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 @media screen and (max-width: 1200px) {
     .intro {

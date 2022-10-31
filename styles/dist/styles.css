@@ -189,7 +189,10 @@ html {
   margin-top: 40px;
   font-size: 20px;
   border: 2px solid var(--accent-color);
+  border: none;
   background-color: var(--accent-color);
+  background: linear-gradient(45deg, #7d62d4, #e24da2, #7d62d4, #23a6d5);
+  background-size: 280% 280%;
   border-radius: 5px;
   color: white;
   display: -webkit-box;
@@ -218,12 +221,7 @@ html {
 }
 
 .intro .button-group:hover {
-  background-color: white;
-  color: var(--accent-color);
-}
-
-.intro .button-group:hover svg path {
-  fill: var(--accent-color);
+  background-position: 100% 50%;
 }
 
 .intro::before {
@@ -252,6 +250,10 @@ html {
   background-repeat: no-repeat;
 }
 
+.intro .text2 .profile-name {
+  display: inline-block;
+}
+
 .intro .text2 span {
   min-width: 20px;
   display: inline-block;
@@ -264,10 +266,39 @@ html {
 }
 
 .intro .text2 span.fade {
+  background: linear-gradient(-60deg, #7d62d4, #23a6d5, #e24da2, #7d62d4);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 4s ease infinite;
+          animation: gradient 4s ease infinite;
+  background-clip: text;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
   opacity: 1;
-  color: var(--accent-color-secondary);
+  color: transparent;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -358,7 +389,7 @@ html {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--accent-color);
+  background: linear-gradient(45deg, #7d62d4, #e24da2);
   opacity: 0;
 }
 
@@ -495,7 +526,7 @@ html {
 
 .projects .project-card .right h2 {
   font-size: 30px;
-  color: var(--accent-color);
+  color: #1a7191;
 }
 
 .projects .project-card .right .info {
@@ -557,22 +588,31 @@ html {
   color: white;
 }
 
+.projects .project-card .right .button-group .web svg path {
+  fill: white;
+}
+
 .projects .project-card .right .button-group .web:hover {
   background-color: white;
   color: var(--accent-color);
 }
 
-.projects .project-card .right .button-group .git {
-  background-color: white;
-  color: var(--accent-color);
-}
-
-.projects .project-card .right .button-group .git svg path {
+.projects .project-card .right .button-group .web:hover svg path {
   fill: var(--accent-color);
 }
 
+.projects .project-card .right .button-group .git {
+  background-color: white;
+  border: 2px solid var(--accent-color-secondary);
+  color: var(--accent-color-secondary);
+}
+
+.projects .project-card .right .button-group .git svg path {
+  fill: var(--accent-color-secondary);
+}
+
 .projects .project-card .right .button-group .git:hover {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-secondary);
   color: white;
 }
 

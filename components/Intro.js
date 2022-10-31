@@ -48,7 +48,7 @@ const Intro = () => {
                 </div>
                 <div className="text">
                     <p className="text1">Hey,</p>
-                    <p className="text2">I'm {splitName()}</p>
+                    <p className="text2">I'm <p className='profile-name'>{splitName()}</p></p>
                     <p className="text3">I'm a Full Stack Developer with around a year of experience in coding and making web applications. Love working with React JS and latest technologies ⚛️</p>
                 </div>
                 <div className="button-group" onClick={() => window.open("https://github.com/magicalbn", '_blank', 'noopener,noreferrer')}>
