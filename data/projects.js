@@ -12,7 +12,7 @@ const Projects = [
         name:"Stocks App",
         info:"MERN Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and add Stocks to watchlist.",
         tools:"MERN Stack ⚛️",
-        website:"https://stocks-app-react.herokuapp.com/",
+        website:"https://stocks-app-ibkr.onrender.com",
         git:"https://github.com/magicalbn/stocks-app"
     },
     {
@@ -21,7 +21,7 @@ const Projects = [
         name:"Movie App",
         info:"NextJS and ExpressJS Web Application. This project allows you to view the latest Movies and TV Shows that are currently airing, along with its Box Office details. You can search for shows and movies by name or even with cast.",
         tools:"ReactJS, NextJS, ExpressJS, Bootstrap ⚛️",
-        website:"https://movie-app-nextjs.herokuapp.com/",
+        website:"https://movie-app-unm5.onrender.com",
         git:"https://github.com/magicalbn/movie-app"
     },
     {
@@ -39,7 +39,7 @@ const Projects = [
         name:"Country App with Theme switch",
         info:"This is my first project with the ability to switch themes, Dark and Light. You can view all Countries and its details and Sort them by its Continent or do a simple search by name. This project uses REST API's.",
         tools:"ReactJS, ExpressJS ⚛️",
-        website:"https://country-app-with-theme-switch.herokuapp.com/",
+        website:"https://country-app-sdar.onrender.com/",
         git:"https://github.com/magicalbn/country-app-with-theme-switcher"
     },
     {
@@ -48,7 +48,7 @@ const Projects = [
         name:"0Auth Login (PassportJS)",
         info:"0Auth Login Application using PassportJS, with the ability to create accounts by logging in through Facebook, Google, Twitter, Github or just with simple email and password. The application includes Authentication and the ability to save user session even after a refresh. I have built this app to be reused as an authentication module for my next projects.",
         tools:"ReactJS, PassportJS, ExpressJS ⚛️",
-        website:"https://passportjs-0auth.herokuapp.com/",
+        website:"https://passportjs-0auth.onrender.com",
         git:"https://github.com/magicalbn/0auth-with-passport.js"
     },
     {
