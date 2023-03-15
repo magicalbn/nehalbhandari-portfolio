@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Space Mono", monospace;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -248,6 +248,11 @@ html {
   height: 100%;
   background-image: url(../../static/images/pattern-quotes.svg);
   background-repeat: no-repeat;
+}
+
+.intro .text2 {
+  font-family: "Space Mono", monospace;
+  letter-spacing: 1px;
 }
 
 .intro .text2 .profile-name {
