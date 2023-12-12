@@ -1,15 +1,13 @@
-import React, { useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
-import Link from 'next/link'
-
-
+import React, { useEffect } from "react";
+import { Fade } from "react-awesome-reveal";
+import Link from "next/link";
 
 const Contact = () => {
     useEffect(() => {
-        window.scrollTo({ top: 300, left: 0, behavior: 'smooth' })
-    }, [])
+        window.scrollTo({ top: 300, left: 0, behavior: "smooth" });
+    }, []);
     return (
-        <Fade >
+        <Fade>
             <div className="contact">
                 <div className="header">
                     <h2>Contact Me</h2>
@@ -26,17 +24,15 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="resume">
-                    <a href='/doc/Nehal Bhandari 2021.pdf' download>
+                    <a href="/doc/Nehal Bhandari 2021.pdf" download>
                         <div className="icon"></div>
-
                         {console.log(process.env)}
                         Resume
                     </a>
                 </div>
             </div>
         </Fade>
+    );
+};
 
-    )
-}
-
-export default Contact
+export default Contact;
