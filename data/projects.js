@@ -12,7 +12,7 @@ const Projects = [
         name: "Stocks App",
         info: "MERN Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and add Stocks to watchlist.",
         tools: "MERN Stack ⚛️",
-        website: "https://stocks-app-production.up.railway.app/home",
+        website: "https://stocks-app-ibkr.onrender.com",
         git: "https://github.com/magicalbn/stocks-app",
     },
     {
