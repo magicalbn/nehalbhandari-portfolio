@@ -24,7 +24,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="resume">
-                    <a href="/doc/Nehal Bhandari 2021.pdf" download>
+                    <a href="/doc/Nehal Bhandari Resume 2023.pdf" download>
                         <div className="icon"></div>
                         {console.log(process.env)}
                         Resume

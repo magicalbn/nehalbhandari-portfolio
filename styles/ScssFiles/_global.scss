@@ -1,19 +1,16 @@
-*{
+* {
     // font-family: 'Poppins',monospace;
     font-family: "Space Mono", monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
-
-
-body{
-    overflow-x: hidden  !important; 
+body {
+    overflow-x: hidden !important;
     position: relative;
-
-    &::before{
+    background-color: var(--body-color);
+    &::before {
         content: "";
         position: absolute;
         width: 120px;
@@ -24,15 +21,13 @@ body{
         background-image: url(../../static/images/pattern-quotes.svg);
         background-size: contain;
         background-repeat: no-repeat;
-        
     }
 }
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
     width: 80%;
 }
-
 
 //::-webkit-scrollbar {
 //    width: 0;  /* Remove scrollbar space */

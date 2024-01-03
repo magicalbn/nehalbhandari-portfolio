@@ -1,16 +1,15 @@
-.categories{
+.categories {
     padding-top: 70px;
     display: flex;
     justify-content: space-between;
     width: 700px;
     margin: auto;
-    div{
-        
+    div {
         padding: 10px 0px;
         width: 170px;
         position: relative;
         transition: all 0.3s ease-in;
-        &::before{
+        &::before {
             transition: all 0.3s ease-in;
             position: absolute;
             content: "";
@@ -18,36 +17,40 @@
             height: 2px;
             bottom: 0;
             left: 0;
-            background:  linear-gradient(45deg, #7d62d4, #e24da2);;
+            background: linear-gradient(45deg, #7d62d4, #e24da2);
             opacity: 0;
         }
-        p{
+        p {
             letter-spacing: 4px;
             text-align: center;
             font-weight: 600;
-            color: var(--element-color);
+            color: var(--text-gray);
             font-size: 16px;
+            transition: all 0.3s ease-in-out;
         }
-        &.active{
-            &::before{
+        &.active {
+            p {
+                color: var(--text-white);
+            }
+            &::before {
                 opacity: 1;
             }
         }
 
-        &:hover{
+        &:hover {
             cursor: pointer;
-            background-color: rgb(238, 238, 238);
-           
+            background-color: #404040;
+            p {
+                color: var(--text-white);
+            }
         }
-        
     }
 }
 
-
-.categories{
+.categories {
     position: relative;
 
-    &::before{
+    &::before {
         content: "";
         position: absolute;
         width: 1500px;
@@ -59,32 +62,30 @@
         background-size: contain;
         background-repeat: no-repeat;
         transform: scaleY(-1);
-        
     }
 }
 
-@media screen and (max-width:1000px){
-    .categories{
-        &::before{
+@media screen and (max-width: 1000px) {
+    .categories {
+        &::before {
             width: 1000px;
         }
         width: 450px;
-        div{
+        div {
             width: 120px;
         }
     }
 }
 
-
-@media screen and (max-width:650px){
-    .categories{
+@media screen and (max-width: 650px) {
+    .categories {
         width: 270px;
-        &:before{
+        &:before {
             width: 800px;
         }
-        div{
+        div {
             width: 80px;
-            p{
+            p {
                 letter-spacing: 0px;
                 font-size: 13px;
             }

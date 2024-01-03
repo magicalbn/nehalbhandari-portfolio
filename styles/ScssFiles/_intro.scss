@@ -4,12 +4,11 @@
     text-align: center;
     margin-top: 180px;
 
-    .img-wrapper{
+    .img-wrapper {
         display: inline-block;
-        height: 250px;      
-        
+        height: 250px;
+
         position: relative;
-        
     }
     // img[alt]{
     //     margin-left: -0px;
@@ -21,16 +20,20 @@
     img {
         // position: absolute;
         // top: 53%;
-        // left: 17%;    
+        // left: 17%;
         // transform: scale(5);
+        box-shadow: 1.95px 1.95px 26px rgba(0, 0, 0, 0.4);
+
         border-radius: 5px;
         height: 100%;
-        object-fit: fill;        
+        object-fit: fill;
     }
     .text {
         margin-top: 30px;
-        width: 700px;
+        width: 100%;
+        max-width: 700px;
         margin: auto;
+        color: var(--text-gray);
     }
     .text1 {
         text-align: left;
@@ -39,16 +42,18 @@
         margin-left: 80px;
     }
     .text2 {
+        margin-top: 5px;
         text-align: center;
         font-size: 45px;
         font-weight: 700;
         letter-spacing: 4px;
         word-spacing: 11px;
-        color: var(--accent-color);
+        color: var(--text-white);
+        margin-bottom: 20px;
     }
     .text3 {
         text-align: justify;
-        color: var(--input-color);
+        color: var(--text-gray);
     }
 
     .button-group {
@@ -96,7 +101,7 @@
     &::before {
         content: "";
         position: absolute;
-        z-index: -3;
+        z-index: 0;
         left: 740px;
         top: -320px;
         width: 900px;
@@ -121,14 +126,11 @@
     }
 }
 
-
-
 .intro .text2 {
     font-family: "Space Mono", monospace;
     letter-spacing: 1px;
-    .profile-name{
+    .profile-name {
         display: inline-block;
-       
     }
     span {
         min-width: 20px;
@@ -136,7 +138,7 @@
         transition: all 0.2s ease-in;
         transform: translateY(50px);
         opacity: 0;
-        
+
         color: var(--accent-color);
     }
 
@@ -152,17 +154,16 @@
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
-
 
 @media screen and (max-width: 1200px) {
     .intro {
@@ -172,10 +173,6 @@
         }
         &::before {
             content: none;
-        }
-
-        .text {
-            width: 500px;
         }
 
         .text1 {
@@ -205,10 +202,6 @@
             margin-top: 10px;
         }
 
-        .text {
-            width: 270px;
-        }
-
         .text1 {
             margin-left: 0px;
             font-size: 17px;
@@ -216,7 +209,7 @@
         .text2 {
             font-size: 25px;
             letter-spacing: 0px;
-            span{
+            span {
                 min-width: 5px;
             }
         }

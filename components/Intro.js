@@ -128,7 +128,7 @@ const Intro = () => {
                         ></p>
                     </p>
                     <p className="text3">
-                        I'm a Full Stack Developer with around a year of
+                        I'm a Full Stack Developer with around 4 years of
                         experience in coding and making web applications. Love
                         working with React JS and latest technologies ⚛️
                     </p>
