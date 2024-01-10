@@ -34,6 +34,7 @@ const Layout = (props) => {
         />
         {/* <!-- End Google Tag Manager --> */}
 
+        {title && <title>{title}</title>}
         <link rel="icon" href="static/icons/id-badge-regular.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
