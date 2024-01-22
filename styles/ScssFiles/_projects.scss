@@ -84,6 +84,11 @@
                         margin-left: 10px;
                         height: 25px;
                     }
+                    &.web {
+                        svg {
+                            height: 18px;
+                        }
+                    }
                 }
 
                 .web {

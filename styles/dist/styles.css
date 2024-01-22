@@ -125,8 +125,7 @@ html {
   box-shadow: 1.95px 1.95px 26px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 .intro .text {
   margin-top: 30px;
@@ -229,8 +228,7 @@ html {
   background: linear-gradient(-60deg, #7d62d4, #23a6d5, #e24da2, #7d62d4);
   background-size: 400% 400%;
   animation: gradient 4s ease infinite;
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   transform: translateY(0px);
   opacity: 1;
   color: transparent;
@@ -419,8 +417,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 5px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   transition: all 0.3s ease-in-out;
 }
 .projects .project-card .left img:hover {
@@ -471,6 +468,9 @@ html {
 }
 .projects .project-card .right .button-group div svg path {
   transition: all 0.3s ease-in;
+}
+.projects .project-card .right .button-group div.web svg {
+  height: 18px;
 }
 .projects .project-card .right .button-group .web {
   background-color: var(--accent-color);
@@ -577,8 +577,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
   margin-top: 70px;
   padding-bottom: 80px;
 }

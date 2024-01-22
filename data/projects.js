@@ -12,7 +12,7 @@ const Projects = [
         name: "Stocks App",
         info: "MERN Stack Stock Trade Web Application using Data Visualisation and REST API. This project includes Authentication, Authorization and Realtime Database. You can view Stocks in their realtime Price, Purchase and Sell, and add Stocks to watchlist.",
         tools: "MERN Stack ⚛️",
-        website: "https://stocks-app-ibkr.onrender.com",
+        website: "https://stocks-app-blush.vercel.app/",
         git: "https://github.com/magicalbn/stocks-app",
     },
     {
@@ -59,6 +59,15 @@ const Projects = [
         tools: "ReactJS ⚛️",
         website: "https://music-master-ae275.web.app/",
         git: "https://github.com/magicalbn/music-master-app",
+    },
+    {
+        id: "7",
+        image: "/project/TODO.PNG",
+        name: "Todo App",
+        info: "A fullstack ToDo app, cause why not?! Built on MERN stack with pagination support on backend. Supports Creating, Update and Deleting of tasks. Uses shadcn/ui as the css framework for components.",
+        tools: "MERN, Tailwind, shadcn/ui ⚛️",
+        website: "https://todo-fullstack-delta.vercel.app/",
+        git: "https://github.com/magicalbn/todo-fullstack",
     },
     // {
     //     id:"7",
