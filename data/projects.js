@@ -62,7 +62,7 @@ const Projects = [
     },
     {
         id: "7",
-        image: "/project/TODO.PNG",
+        image: "/project/Todo.PNG",
         name: "Todo App",
         info: "A fullstack ToDo app, cause why not?! Built on MERN stack with pagination support on backend. Supports Creating, Update and Deleting of tasks. Uses shadcn/ui as the css framework for components.",
         tools: "MERN, Tailwind, shadcn/ui ⚛️",
